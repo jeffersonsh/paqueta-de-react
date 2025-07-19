@@ -1,6 +1,13 @@
+import Titulo from "./components/titulo"; //los componentes deben comenzar con mayúscula si no no reconoce el componente
+import axios from 'axios';  
+
+
 function App() {
-  return ( 
-    <h1>Hello, World!</h1>
+  return (
+    <div>
+      <h1>Hola Mundo</h1>
+      <Titulo />
+    </div>
   );
 }
 
